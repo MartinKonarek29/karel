@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KarelBot</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        header {
+            background-color: black;
+            height: 8vh;
+            width: 100vw;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        header h1 {
+            color: white;
+
+            
+        }
+        .field {
+            background-color: black;
+            border: solid 2px white;
+            width: 600px;
+            height: 600px;
+
+        }
+        main {
+            display: flex;
+            width: 100vw;
+            justify-content:space-around ;
+
+        }
+        h2 {
+            color: white;
+        }
+        h3 {
+            color: white;
+        }
+        body {
+            background-color: black;
+        }
+        button {
+            color: white;
+            background-color: black;
+            border: 2px solid white;
+            width: 404px;
+            height: 50px;
+        }
+        input{
+            background-color: black;
+            border: white 2px solid;
+            color: white;
+            width: 400px;
+            height: 600px;
+            
+        }
+        p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Karel</h1>
+    </header>
+    <main>
+        <div class="Command">
+            <h2>Příkazy</h2>
+            <input type="text">
+            <br>
+            <button>Proveď</button>
+
+        </div>
+        <div>
+            <h2>Pole</h2>
+            <div class="field" id="field">
+
+
+            </div>
+            <div>
+                <h3>Možné příkazy:</h3><br>
+                <p>KROK</p><br>
+                <p>VLEVOBOK</p><br>
+                <p>POLOZ</p><br>
+                <p>RESET</p><br>
+
+
+
+            </div>
+
+
+        </div>
+    </main>
+
+
+
+
+    <script>
+
+
+
+    </script>
+</body>
+</html>
